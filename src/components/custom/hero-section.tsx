@@ -61,7 +61,8 @@ export default function HeroSection() {
                 Começar Minha Transformação
               </Button>
               <Button 
-                className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white font-semibold text-lg px-8 py-6 rounded-xl shadow-xl hover:shadow-orange-500/50 transition-all duration-300"
+                variant="outline" 
+                className="border-2 border-white/20 text-white hover:bg-white/10 font-semibold text-lg px-8 py-6 rounded-xl backdrop-blur-sm"
               >
                 <Play className="w-5 h-5 mr-2" />
                 Ver Demonstração
